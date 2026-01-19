@@ -27,27 +27,25 @@ const Contact = () => {
 
   const isInView = useInView(ref, { margin: "-100px" });
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm(
-  //       "service_94y20xo",
-  //       "template_v10u2oh",
-  //       formRef.current,
-  //       "pX_2hasGmGcuvjXIW"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         setSuccess(true)
-  //       },
-  //       (error) => {
-  //         setError(true);
-  //       }
-  //     );
-  // };
-
-  //email function would be implemented in the next versions
+    emailjs
+      .sendForm(
+        "service_94y20xo",
+        "template_v10u2oh",
+        formRef.current,
+        "pX_2hasGmGcuvjXIW"
+      )
+      .then(
+        (result) => {
+          setSuccess(true)
+        },
+        (error) => {
+          setError(true);
+        }
+      );
+  };
 
   return (
     <motion.div
@@ -104,7 +102,7 @@ const Contact = () => {
             />
           </svg>
         </motion.div>
-        {/* <motion.form
+        <motion.form
           ref={formRef}
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
@@ -117,7 +115,7 @@ const Contact = () => {
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
-        </motion.form> */}
+        </motion.form>
       </div>
     </motion.div>
   );
