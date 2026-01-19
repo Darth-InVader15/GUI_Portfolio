@@ -15,7 +15,7 @@ function redirectTo(url) {
 // Variants for animation
 const variants = {
   initial: {
-    x: -500,
+    x: -100,
     y: 100,
     opacity: 0,
   },
@@ -58,7 +58,7 @@ const Roles = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <motion.h1>
-            Current <motion.b whileHover={{ color: "orange" }}>Roles</motion.b>.
+            Current <motion.b whileHover={{ color: "orange" }}>Role</motion.b>.
           </motion.h1>
         </div>
        
@@ -74,20 +74,19 @@ const Roles = () => {
     >
       <motion.div className="Background" variants={variants}>
         <h1 className="head1">
-            <span>Piyush is currently</span>
+            <span>Piyush is currently a</span>
             <motion.ul variants={variants}>
-                <li>Content Creation Head at Colours | NIT-K</li>
-                <li>Part of Web Development and Embedded Team | NIT-K</li>
+                <li>Software Developer at EY</li>
             </motion.ul>
         </h1>
         <br></br>
         <Fade>
         <h2 className="head2" whileHover={{ scale: 1.2, color: "orange" }}>
-            <motion>Where, he has</motion>
+            <motion>Where he works on</motion>
             <ul whileHover={{ scale: 1.2, color: "orange" }}>
-                <li>Co-organized 5+ technical workshops on topics like Image Processing, C, Embedded Systems, etc. </li>
-                <li>Conducted 3+ workshops on Content Writing and Creation.</li>
-                <li> Co-organized college events like <span className="Events" sty>TechSpardha'23 '24, Confluence'22 '23, and TEDxNITKKR'23 </span></li>
+                <li>Complex backend architectures and distributed systems.</li>
+                <li>Scalable solutions using Python, TypeScript, and Azure.</li>
+                <li>AI integration and data visualization pipelines.</li>
             </ul>
             <br />
         </h2>

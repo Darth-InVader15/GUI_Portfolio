@@ -16,7 +16,7 @@ function redirectTo(url) {
 // Variants for animation
 const variants = {
   initial: {
-    x: -500,
+    x: -100,
     y: 100,
     opacity: 0,
   },
