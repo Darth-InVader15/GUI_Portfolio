@@ -9,6 +9,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Roles from "./components/roles/Roles";
+import Experience from "./components/experience/Experience";
+
 const App = () => {
   return (
     <div>
@@ -22,6 +24,12 @@ const App = () => {
       </section>
       <section>
         <Services />
+      </section>
+      <section id="Experience">
+        <Parallax type="experience" />
+      </section>
+      <section>
+        <Experience />
       </section>
       <section id="Skills">
         <Parallax type="skills" />
