@@ -5,6 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Fade from 'react-reveal/Fade';
 import { Zoom } from "react-reveal";
+import { RESUME_LINK } from "../../constants";
 
 //This file contains the About Me section of the portfolio
 
@@ -129,7 +130,7 @@ const Services = () => {
           className="techButton"
           whileHover={{ scale: 1.1, color: "orange" }}
           whileTap={{ scale: 0.9 }}
-          onClick={() => redirectTo('https://drive.google.com/file/d/1J25Jir1OZNiwZe72KmG_RgLqAwxZThI5/view?usp=drive_link')}
+          onClick={() => redirectTo(RESUME_LINK)}
         >
           View Resume
         </motion.div>

@@ -1,6 +1,7 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import { RESUME_LINK, SCHEDULE_LINK } from "../../constants";
 
 const Navbar = () => {
   return (
@@ -18,7 +19,9 @@ const Navbar = () => {
         <div>
           <a href="https://darthshell.web.app/">Remove animations </a>
           <a> | </a>
-          <a href="https://drive.google.com/file/d/1J25Jir1OZNiwZe72KmG_RgLqAwxZThI5/view?usp=drive_link"> View Resume</a>
+          <a href={RESUME_LINK}> View Resume</a>
+          <a> | </a>
+          <a href={SCHEDULE_LINK} target="_blank" rel="noreferrer"> Schedule Meet</a>
         </div>
         <div className="social">
           <a href="https://github.com/Darth-InVader15">
