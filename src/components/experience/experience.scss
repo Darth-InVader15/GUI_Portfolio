@@ -8,7 +8,7 @@
 
   .textContainer {
     flex: 1;
-    align-self: flex-end;
+    align-self: center;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -23,7 +23,7 @@
       font-weight: 200;
       font-size: 20px;
       color: gray;
-      text-align: right;
+      text-align: center;
     }
 
     hr {
