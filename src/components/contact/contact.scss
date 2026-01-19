@@ -39,6 +39,18 @@
     span {
       font-weight: 300;
     }
+
+    .scheduleButton {
+      padding: 15px 20px;
+      border: none;
+      background-color: orange;
+      cursor: pointer;
+      font-weight: 500;
+      color: black;
+      border-radius: 5px;
+      width: fit-content;
+      font-size: 16px;
+    }
   }
 
   .formContainer {

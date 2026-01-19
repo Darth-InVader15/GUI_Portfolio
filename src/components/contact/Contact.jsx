@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { SCHEDULE_LINK } from "../../constants";
 
 const variants = {
   initial: {
@@ -67,8 +68,10 @@ const Contact = () => {
           <span>wandering around NIT Kurukshetra</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          {/* <h2>Phone</h2>
-          <span>+1 234 5678</span>  */}
+          <h2>Schedule</h2>
+          <a href={SCHEDULE_LINK} target="_blank" rel="noreferrer" className="scheduleButton">
+            Schedule a Meeting
+          </a>
         </motion.div>
       </motion.div>
       <div className="formContainer">
