@@ -10,6 +10,24 @@ const items = [
     desc: "",
     url: "",
   },{
+    id: 101,
+    title: "Sam: Local AI Companion",
+    img: "/bot.jpg",
+    desc: "Developed a private Local LLM Orchestrator using FastAPI for backend, implementing Server-Sent Events (SSE) to parallelize text generation and Kokoro-82M audio synthesis, reducing interaction latency by 40%. Designed a Dynamic Context Engine that injects role-specific system prompts into Llama 3 to switch personas (e.g., Therapist, Friend), utilizing SQLite for offline, persistent memory management.",
+    url: "",
+  },{
+    id: 102,
+    title: "AI DJ for YouTube Music",
+    img: "/youtube.png",
+    desc: "Engineered a context-aware Chrome Extension integrating the Gemini API to analyze musical metadata and generate dynamic, mood-aligned voiceovers (Intro/Outro) in real-time. Refactored the TypeScript architecture to centralize audio state management, reducing code redundancy by 40% and ensuring seamless synchronization between TTS playback and media events.",
+    url: "",
+  },{
+    id: 103,
+    title: "VisualizeX: Data Visualisation Dashboard",
+    img: "/mern.png",
+    desc: "Engineered a high-throughput dashboard using Node.js and React, utilizing WebSockets to stream live KPI metrics from a MongoDB cluster directly to Chart.js visualizations. Implemented Role-Based Access Control to securely expose sensitive business intelligence, ensuring data integrity across large-scale datasets. Integrated Leaflet.js to perform server-side geospatial clustering, rendering user demographic heatmaps for business insights.",
+    url: "",
+  },{
     id: 2,
     title: "E-Commerce Website",
     img: "/Ecom.png",

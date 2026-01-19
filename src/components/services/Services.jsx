@@ -75,7 +75,7 @@ const Services = () => {
       >
       <motion.div className="educationBackground" variants={variants}>
         <h1>
-        Piyush is an engineering undergrad at NIT Kurukshetra. He is currently in his pre-final year.
+        Piyush is a Software Engineer at EY Parthenon and a final year engineering undergrad at NIT Kurukshetra.
         </h1>
         <br></br>
         <Fade>

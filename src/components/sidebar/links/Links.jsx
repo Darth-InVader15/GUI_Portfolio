@@ -28,7 +28,7 @@ const itemVariants = {
 const darthShell = "https://darthshell.web.app";
 
 const Links = () => {
-  const items = ["Homepage", "About", "Skills", "Projects", "Contact", "Terminal", "Resume", "Schedule"];
+  const items = ["Homepage", "About", "Experience", "Skills", "Projects", "Contact", "Terminal", "Resume", "Schedule"];
 
   const getLink = (item) => {
     switch (item) {
